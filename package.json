@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bibraj96/Portfolio-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bibraj96/Portfolio-1/issues"
+  },
+  "homepage": "https://github.com/Bibraj96/Portfolio-1#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
