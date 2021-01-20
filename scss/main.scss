@@ -1,4 +1,5 @@
 @import "variables";
+@import "utilities";
 
 // General Styles
 * {
@@ -30,6 +31,8 @@ img {
 #header {
   &-home {
     background: $bg-image no-repeat center right / cover;
+    height: 100vh;
+    color: $medium-color;
   }
 
   &-inner {
