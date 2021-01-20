@@ -23,7 +23,26 @@ ul {
 img {
   width: 100%; }
 
+#nav {
+  display: flex;
+  justify-content: center;
+  margin: 5px; }
+  #nav ul {
+    display: flex;
+    justify-self: right; }
+  #nav li {
+    padding: 1rem 1.5rem; }
+  #nav a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s; }
+    #nav a:hover {
+      color: #a4c2a5;
+      border-color: #a4c2a5; }
+
 #header-home {
-  background: url("/dist/img/water-showcase.jpg") no-repeat center right/cover;
+  background: url("/dist/img/cloud-showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #d8dad3; }

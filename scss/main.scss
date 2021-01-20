@@ -27,6 +27,35 @@ img {
   width: 100%;
 }
 
+// Nav
+#nav {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+
+  ul {
+    display: flex;
+    justify-self: right;
+  }
+
+  li {
+    padding: 1rem 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+
+    &:hover {
+      color: $main-color;
+      border-color: $main-color;
+    }
+  }
+}
+
 // Header
 #header {
   &-home {
