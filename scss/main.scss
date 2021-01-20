@@ -25,3 +25,13 @@ img {
   // Keep images in their containers
   width: 100%;
 }
+
+// Header
+#header {
+  &-home {
+    background: $bg-image no-repeat center right / cover;
+  }
+
+  &-inner {
+  }
+}
