@@ -86,3 +86,19 @@ img {
     #header-home .header-content h1 {
       font-size: 3rem;
       line-height: 1.2; }
+
+.section-title {
+  padding: 15px;
+  border-bottom: 2px #a4c2a5 solid; }
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 2rem;
+  align-items: center;
+  margin: 20px; }
+  .about p {
+    align-items: center; }
+
+.profile-pic {
+  border-radius: 50%; }
