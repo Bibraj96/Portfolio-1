@@ -9,8 +9,10 @@
 %btn-shared {
   display: inline-block;
   padding: 0.8rem 2rem;
+  margin: 5px;
   transition: all 0.5s;
   border: none;
+  border-radius: 2px;
   cursor: pointer;
 }
 
@@ -27,6 +29,12 @@
     background-color: $light-color;
   }
 
+  &-light {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $medium-color;
+  }
+
   &-dark {
     @extend %btn-shared;
     color: #f4f4f4;
@@ -38,4 +46,8 @@ button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
   background-color: $main-color;
+}
+
+.text-center {
+  text-align: center;
 }
