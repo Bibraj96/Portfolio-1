@@ -27,7 +27,7 @@ img {
   width: 100%;
 }
 
-// Nav
+// Navbar
 #nav {
   display: flex;
   justify-content: center;
@@ -62,6 +62,18 @@ img {
     background: $bg-image no-repeat center right / cover;
     height: 100vh;
     color: $medium-color;
+
+    // Header Content
+    .header-content {
+      color: #222;
+      text-align: center;
+      padding-top: 12%;
+
+      h1 {
+        font-size: 3rem;
+        line-height: 1.2;
+      }
+    }
   }
 
   &-inner {

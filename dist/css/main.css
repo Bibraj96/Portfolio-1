@@ -4,6 +4,30 @@
   margin: auto;
   overflow: hidden; }
 
+.btn-main, .btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer; }
+
+.btn-main {
+  color: #333;
+  background-color: #a4c2a5; }
+
+.btn-light {
+  color: #333;
+  background-color: #f1f2eb; }
+
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #4a4a48; }
+
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: #a4c2a5; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -46,3 +70,10 @@ img {
   background: url("/dist/img/cloud-showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #d8dad3; }
+  #header-home .header-content {
+    color: #222;
+    text-align: center;
+    padding-top: 12%; }
+    #header-home .header-content h1 {
+      font-size: 3rem;
+      line-height: 1.2; }
