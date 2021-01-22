@@ -107,6 +107,20 @@ img {
 .profile-pic {
   border-radius: 50%; }
 
+.tech-section h3 {
+  margin: 20px 0px; }
+
+.tech-section p {
+  text-align: center;
+  margin-top: 7px; }
+
+.front-end {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center; }
+
 i {
   color: #a4c2a5; }
 
