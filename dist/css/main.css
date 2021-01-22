@@ -86,10 +86,13 @@ img {
     #header-home .header-content h1 {
       font-size: 3rem;
       line-height: 1.2; }
+    #header-home .header-content h2 {
+      margin-bottom: 15px; }
 
 .section-title {
   padding: 15px;
-  border-bottom: 2px #a4c2a5 solid; }
+  border-bottom: 2px #a4c2a5 solid;
+  text-align: center; }
 
 .about {
   display: grid;
@@ -98,7 +101,15 @@ img {
   align-items: center;
   margin: 20px; }
   .about p {
-    align-items: center; }
+    align-items: center;
+    font-size: 1.2rem; }
 
 .profile-pic {
   border-radius: 50%; }
+
+i {
+  color: #a4c2a5; }
+
+.iconify {
+  font-size: 5rem;
+  color: #a4c2a5; }

@@ -73,6 +73,10 @@ img {
         font-size: 3rem;
         line-height: 1.2;
       }
+
+      h2 {
+        margin-bottom: 15px;
+      }
     }
   }
 
@@ -84,6 +88,7 @@ img {
 .section-title {
   padding: 15px;
   border-bottom: 2px $main-color solid;
+  text-align: center;
 }
 .about {
   display: grid;
@@ -94,9 +99,20 @@ img {
 
   p {
     align-items: center;
+    font-size: 1.2rem;
   }
 }
 
 .profile-pic {
   border-radius: 50%;
+}
+
+// Technologies
+
+i {
+  color: $main-color;
+}
+.iconify {
+  font-size: 5rem;
+  color: $main-color;
 }
