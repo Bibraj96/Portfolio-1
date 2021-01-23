@@ -109,6 +109,7 @@ img {
 
 // Technologies
 .tech-section {
+  margin-bottom: 30px;
   h3 {
     margin: 20px 0px;
   }
@@ -118,6 +119,7 @@ img {
   }
 }
 .front-end {
+  margin-top: 30px;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(6, 1fr);
@@ -131,4 +133,5 @@ i {
 .iconify {
   font-size: 5rem;
   color: $main-color;
+  margin-bottom: 10px;
 }
