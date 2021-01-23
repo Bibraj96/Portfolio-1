@@ -27,6 +27,19 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+
+  &:hover {
+    color: $main-color;
+    border-color: $main-color;
+  }
+}
+
 // Navbar
 #nav {
   display: flex;
@@ -40,19 +53,6 @@ img {
 
   li {
     padding: 1rem 1.5rem;
-  }
-
-  a {
-    text-decoration: none;
-    color: #fff;
-    border-bottom: 2px transparent solid;
-    padding-bottom: 0.5rem;
-    transition: border-color 0.5s;
-
-    &:hover {
-      color: $main-color;
-      border-color: $main-color;
-    }
   }
 }
 
@@ -123,7 +123,7 @@ img {
   margin-top: 30px;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   justify-items: center;
   align-items: center;
 }
@@ -131,11 +131,16 @@ img {
 i {
   color: $main-color;
 }
+
 .iconify {
   font-size: 5rem;
   color: $main-color;
   margin-bottom: 10px;
 }
+
+// .rails {
+//   font-size: 7rem;
+// }
 
 // Projects
 .projects {
@@ -160,7 +165,12 @@ i {
     justify-self: center;
   }
 
+  a {
+    color: $dark-color;
+  }
+
   i {
+    color: $secondary-color;
     margin-bottom: 5px;
     justify-self: center;
   }

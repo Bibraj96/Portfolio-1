@@ -56,6 +56,16 @@ ul {
 img {
   width: 100%; }
 
+a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s; }
+  a:hover {
+    color: #a4c2a5;
+    border-color: #a4c2a5; }
+
 #nav {
   display: flex;
   justify-content: center;
@@ -65,15 +75,6 @@ img {
     justify-self: right; }
   #nav li {
     padding: 1rem 1.5rem; }
-  #nav a {
-    text-decoration: none;
-    color: #fff;
-    border-bottom: 2px transparent solid;
-    padding-bottom: 0.5rem;
-    transition: border-color 0.5s; }
-    #nav a:hover {
-      color: #a4c2a5;
-      border-color: #a4c2a5; }
 
 #header-home {
   background: url("/dist/img/cloud-showcase.jpg") no-repeat center right/cover;
@@ -119,7 +120,7 @@ img {
   margin-top: 30px;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   justify-items: center;
   align-items: center; }
 
@@ -147,6 +148,9 @@ i {
     align-self: center; }
   .card h3 {
     justify-self: center; }
+  .card a {
+    color: #4a4a48; }
   .card i {
+    color: #566246;
     margin-bottom: 5px;
     justify-self: center; }
