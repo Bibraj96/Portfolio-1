@@ -130,3 +130,23 @@ i {
   font-size: 5rem;
   color: #a4c2a5;
   margin-bottom: 10px; }
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin: 30px; }
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1rem;
+  margin: 30px; }
+  .card p {
+    align-self: center; }
+  .card h3 {
+    justify-self: center; }
+  .card i {
+    margin-bottom: 5px;
+    justify-self: center; }
