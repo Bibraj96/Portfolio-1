@@ -182,6 +182,7 @@ i {
 
   form {
     padding: 20px;
+    margin: 20px 50px 50px 50px;
   }
 
   .text-fields {
@@ -212,6 +213,15 @@ i {
 
     .message-input {
       grid-area: message;
+      height: 100px;
     }
+
+    .text-input {
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  button[type="submit"] {
+    width: 50%;
   }
 }
