@@ -225,3 +225,30 @@ i {
     width: 50%;
   }
 }
+
+// Footer
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  background: $dark-color;
+  width: 100%;
+  color: $light-color;
+
+  h3 {
+    padding-bottom: 15px;
+  }
+
+  a {
+    color: $light-color;
+  }
+
+  i {
+    padding: 15px;
+  }
+
+  .contact-item {
+    text-align: center;
+  }
+}

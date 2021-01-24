@@ -180,3 +180,20 @@ i {
       padding: 0.5rem 1rem; }
   .contact-section button[type="submit"] {
     width: 50%; }
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  background: #4a4a48;
+  width: 100%;
+  color: #f1f2eb; }
+  .contact-info h3 {
+    padding-bottom: 15px; }
+  .contact-info a {
+    color: #f1f2eb; }
+  .contact-info i {
+    padding: 15px; }
+  .contact-info .contact-item {
+    text-align: center; }
