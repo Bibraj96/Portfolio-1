@@ -108,11 +108,11 @@ a {
 .profile-pic {
   border-radius: 50%; }
 
-.tech-section {
+#tech-section {
   margin-bottom: 30px; }
-  .tech-section h3 {
+  #tech-section h3 {
     margin: 20px 0px; }
-  .tech-section p {
+  #tech-section p {
     text-align: center;
     margin-top: 7px; }
 
@@ -155,30 +155,30 @@ i {
     margin-bottom: 5px;
     justify-self: center; }
 
-.contact-section {
+#contact-section {
   text-align: center; }
-  .contact-section form {
+  #contact-section form {
     padding: 20px;
     margin: 20px 50px 50px 50px; }
-  .contact-section .text-fields {
+  #contact-section .text-fields {
     display: grid;
     grid-template-areas: "name email" "subject phone" "message message";
     grid-gap: 1.2rem;
     margin-bottom: 1.2rem; }
-    .contact-section .text-fields .name-input {
+    #contact-section .text-fields .name-input {
       grid-area: name; }
-    .contact-section .text-fields .subject-input {
+    #contact-section .text-fields .subject-input {
       grid-area: subject; }
-    .contact-section .text-fields .email-input {
+    #contact-section .text-fields .email-input {
       grid-area: email; }
-    .contact-section .text-fields .phone-input {
+    #contact-section .text-fields .phone-input {
       grid-area: phone; }
-    .contact-section .text-fields .message-input {
+    #contact-section .text-fields .message-input {
       grid-area: message;
       height: 100px; }
-    .contact-section .text-fields .text-input {
+    #contact-section .text-fields .text-input {
       padding: 0.5rem 1rem; }
-  .contact-section button[type="submit"] {
+  #contact-section button[type="submit"] {
     width: 50%; }
 
 .contact-info {
