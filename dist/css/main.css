@@ -154,3 +154,8 @@ i {
     color: #566246;
     margin-bottom: 5px;
     justify-self: center; }
+
+.contact-section {
+  text-align: center; }
+  .contact-section form {
+    padding: 20px; }
