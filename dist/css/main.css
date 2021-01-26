@@ -81,11 +81,11 @@ a {
     padding: 1rem 1.5rem; }
 
 #header-home {
-  background: url("/dist/img/cloud-showcase.jpg") no-repeat center right/cover;
+  background: url("/dist/img/space-showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #d8dad3; }
   #header-home .header-content {
-    color: #222;
+    color: #d8dad3;
     text-align: center;
     padding-top: 12%; }
     #header-home .header-content h1 {
@@ -209,7 +209,24 @@ i {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
-      margin-top: 80px;
-      color: #333;
+      margin-top: 30px;
       font-size: 0.8rem;
       padding-top: 5rem; } }
+
+@media (max-width: 500px) {
+  #nav li {
+    padding: 0.8rem; }
+  #header-home .header-content {
+    margin-top: 40px; }
+    #header-home .header-content h1 {
+      font-size: 2.5rem; }
+  .about,
+  .card,
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .front-end {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  #contact-section .text-fields {
+    grid-template-areas: "name" "subject" "email" "phone" "message"; } }

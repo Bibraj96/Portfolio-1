@@ -4,10 +4,51 @@
     height: 30rem;
 
     .header-content {
-      margin-top: 80px;
-      color: #333;
+      margin-top: 30px;
       font-size: 0.8rem;
       padding-top: 5rem;
+    }
+  }
+}
+
+// Smartphones
+@media (max-width: 500px) {
+  #nav {
+    li {
+      padding: 0.8rem;
+    }
+  }
+
+  #header-home {
+    .header-content {
+      margin-top: 40px;
+
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .about,
+  .card,
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .front-end {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #contact-section {
+    .text-fields {
+      grid-template-areas:
+        "name"
+        "subject"
+        "email"
+        "phone"
+        "message";
     }
   }
 }
