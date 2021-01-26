@@ -66,6 +66,10 @@ a {
     color: #a4c2a5;
     border-color: #a4c2a5; }
 
+.btn-dark:hover {
+  background-color: #a4c2a5;
+  color: #4a4a48; }
+
 #nav {
   display: flex;
   justify-content: center;
@@ -154,6 +158,9 @@ i {
     color: #566246;
     margin-bottom: 5px;
     justify-self: center; }
+
+.spacelog-link {
+  margin-left: 20px; }
 
 #contact-section {
   text-align: center; }

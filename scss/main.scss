@@ -40,6 +40,13 @@ a {
   }
 }
 
+.btn-dark {
+  &:hover {
+    background-color: $main-color;
+    color: $dark-color;
+  }
+}
+
 // Navbar
 #nav {
   display: flex;
@@ -78,9 +85,6 @@ a {
         margin-bottom: 15px;
       }
     }
-  }
-
-  &-inner {
   }
 }
 
@@ -174,6 +178,10 @@ i {
     margin-bottom: 5px;
     justify-self: center;
   }
+}
+
+.spacelog-link {
+  margin-left: 20px;
 }
 
 // Contact
