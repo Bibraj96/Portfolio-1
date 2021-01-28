@@ -205,6 +205,18 @@ i {
   .contact-info .contact-item {
     text-align: center; }
 
+.recaptcha {
+  padding: 5px; }
+
+.top {
+  display: flex;
+  font-size: 0.9rem;
+  padding-bottom: 0px; }
+  .top a {
+    justify-self: end;
+    margin-left: 15px;
+    color: #333 !important; }
+
 @media (max-width: 800px) {
   #header-home {
     height: 30rem; }

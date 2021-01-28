@@ -266,5 +266,23 @@ i {
   padding: 5px;
 }
 
+// Back to Top
+.top {
+  display: flex;
+  font-size: 0.9rem;
+  padding-bottom: 0px;
+  a {
+    justify-self: end;
+    margin-left: 15px;
+    color: #333 !important;
+  }
+}
+
+// #contact-section {
+//   .top {
+//     margin-left: 75px;
+//   }
+// }
+
 // Media Queries
 @import "media";
