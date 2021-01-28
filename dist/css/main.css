@@ -81,7 +81,7 @@ a {
     padding: 1rem 1.5rem; }
 
 #header-home {
-  background: url("/dist/img/space-showcase.jpg") no-repeat center right/cover;
+  background: url("../img/space-showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #d8dad3; }
   #header-home .header-content {
